@@ -28,7 +28,7 @@
 
 ### 1. Pipeline Description
 
-My pipeline consisted of the following steps :
+My pipeline consists of the following steps :
 
 1. First I converted the image to grayscale image. As it is easier to do image processing techniques on a grayscale image. The image is displayed below
 
