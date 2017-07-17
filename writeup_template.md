@@ -36,7 +36,6 @@ My pipeline consisted of the following steps :
 ![Grayscale][image1]
 
 2. I then used the Gaussian Blur function to remove noise in the grayscale image. This smoothens the variation in intensity throughout 
-
 the image. The blurred image is displayed below
 
 ![Blurred][image2]
