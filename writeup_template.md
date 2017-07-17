@@ -42,11 +42,13 @@ My pipeline consisted of the following steps :
 
 ![Edged][image3]
 
-4. The next step was to define a region of interest by identifying the vertices of a quadrilateral which best encompassed the two lanes. Using the following vertices : {[150, image.shape[0]],[420, 330],[500 , 320],[900, image.shape[0]]}, I was able to get the following image:
+4. The next step was to define a region of interest by identifying the vertices of a quadrilateral which best encompassed the two lanes. Using the following vertices : {[150, image.shape[0]],[455, 315],[510 , 315],[900, image.shape[0]]}, I was able to get the following image:
 
 ![Masked Image][image4]
 
-5. 
+5. Now we have the our masked image which contains only the edges of the lanes. I then applied HoughTransformP function to identify which pixels are lines and obtain their x and y positions. Using these I drew all the lines on the image to obtain the line_image as shown below:
+
+![line image][image5]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
