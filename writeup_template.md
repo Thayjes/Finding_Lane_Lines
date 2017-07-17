@@ -15,15 +15,15 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: .images/gray.png "Grayscale"
+[image1]: ./images/gray.png "Grayscale"
 
-[image2]: .images/blurred.png "Blurred"
+[image2]: ./images/blurred.png "Blurred"
 
-[image3]: .images/edged.png "Edged"
+[image3]: ./images/edged.png "Edged"
 
-[image4]: .images/masked_image.png "Masked Image"
+[image4]: ./images/masked_image.png "Masked Image"
 
-[image5]: ./line_image.png "Line Image"
+[image5]: ./images/line_image.png "Line Image"
 
 ### Reflection
 
