@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 [image4]: ./images/masked_image.png "Masked Image"
 
-[image5]: ./images/line_image.png "Line Image"
+[image5]: ./images/lines_image.png "Line Image"
 
 ### Reflection
 
