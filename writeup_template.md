@@ -51,8 +51,7 @@ lower threshold and a higher threshold to determine which pixels are truly edges
 
 4. The next step was to define a region of interest by identifying the vertices of a quadrilateral which best encompassed the two lanes. 
 
-Using the following vertices : {[150, image.shape[0]],[455, 315],[510 , 315],[900, image.shape[0]]}, I was able to get the following 
-
+Using the following vertices : {[150, image.shape[0]],[455, 315],[510 , 315],[900, image.shape[0]]}, I was able to get the following
 image:
 
 ![Masked Image][image4]
@@ -60,7 +59,6 @@ image:
 5. Now we have the our masked image which contains only the edges of the lanes. I then applied HoughTransformP function to identify 
 
 which pixels are lines and obtain their x and y positions. Using these I drew all the lines on the image to obtain the line_image as 
-
 shown below:
 
 ![line image][image5]
@@ -86,7 +84,6 @@ e. I then started to identify the extreme points of each lane. For the bottom ex
 height of the image), and using my parametrized lane I obtained the corresponding x co-ordinates for each of those points.
 
 f. The top extreme points were trickier. The initial solution I used was simply the maximum of the left x co-ordinates for the left 
-
 lane. And the minimum of the right x co-ordinates for the right lane.
 
 
