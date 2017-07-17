@@ -19,6 +19,8 @@ The goals / steps of this project are the following:
 
 [image2]: ./blurred.png "Blurred"
 
+[image3]: ./edged.png "Edged"
+
 ---
 
 ### Reflection
@@ -33,6 +35,10 @@ My pipeline consisted of the following steps :
 
 2. I then used the Gaussian Blur function to remove noise in the grayscale image. This smoothens the variation in intensity throughout the image. The blurred image is displayed below
 ![Blurred][image2]
+
+3. I then used the in built Canny function to identify the edges in the image.  This involved experimenting with two values are a lower threshold and a higher threshold to determine which pixels are truly edges. Finally I was able to obtain an image of the edges (which is a binary image with edged pixels = 255 and non-edge pixels = 0) as shown below :
+
+![Edged][image3]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
