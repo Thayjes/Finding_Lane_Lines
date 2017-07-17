@@ -31,7 +31,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline Description
 
 My pipeline consisted of the following steps :
 
@@ -45,9 +45,7 @@ the image. The blurred image is displayed below
 ![Blurred][image2]
 
 3. I then used the in built Canny function to identify the edges in the image.  This involved experimenting with two parameters namely a 
-
 lower threshold and a higher threshold to determine which pixels are truly edges. Finally I was able to obtain an image of the edges 
-
 (which is a binary image with edged pixels = 255 and non-edge pixels = 0) as shown below :
 
 ![Edged][image3]
@@ -91,12 +89,12 @@ h. Finally the lines were drawn on the line image using the cv2.line function.
 The image is shown below:
 ![Final Line Image][image6]
 
-7. The last step was combining the line_img and original image using the weighted_add function. I used an alpha of 0.7, beta of 0.3 and lmabda of 30.
+7. The last step was combining the line_img and original image using the weighted_add function. I used an alpha of 0.7, beta of 0.3 and lambda of 60.
 
 ![Output Image][image7]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential Shortcomings of my Pipeline
 
 1. One potential shortcoming is that my pipeline may not be robust to variation in illumination of the images.
 
@@ -104,8 +102,7 @@ The image is shown below:
 
 3. A final shortcoming might be the fact that I fit a straight line through the co-ordinates of each of the lanes. If the lane was not really straight, then drawing a straight line on the image may not capture the lanes.
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible Improvements for my Pipeline
 
 1. A possible improvement would be to fit a higher order polynomial through the points. Thus allowing us to draw over curved lanes as well.
 
-2. 
