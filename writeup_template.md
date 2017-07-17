@@ -21,7 +21,9 @@ The goals / steps of this project are the following:
 
 [image3]: ./edged.png "Edged"
 
----
+[image4]: ./masked_image.png "Masked Image"
+
+[image5]: ./line_image.png "Line Image"
 
 ### Reflection
 
@@ -36,9 +38,15 @@ My pipeline consisted of the following steps :
 2. I then used the Gaussian Blur function to remove noise in the grayscale image. This smoothens the variation in intensity throughout the image. The blurred image is displayed below
 ![Blurred][image2]
 
-3. I then used the in built Canny function to identify the edges in the image.  This involved experimenting with two values are a lower threshold and a higher threshold to determine which pixels are truly edges. Finally I was able to obtain an image of the edges (which is a binary image with edged pixels = 255 and non-edge pixels = 0) as shown below :
+3. I then used the in built Canny function to identify the edges in the image.  This involved experimenting with two parameters namely a lower threshold and a higher threshold to determine which pixels are truly edges. Finally I was able to obtain an image of the edges (which is a binary image with edged pixels = 255 and non-edge pixels = 0) as shown below :
 
 ![Edged][image3]
+
+4. The next step was to define a region of interest by identifying the vertices of a quadrilateral which best encompassed the two lanes. Using the following vertices : {[150, image.shape[0]],[420, 330],[500 , 320],[900, image.shape[0]]}, I was able to get the following image:
+
+![Masked Image][image4]
+
+5. 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
