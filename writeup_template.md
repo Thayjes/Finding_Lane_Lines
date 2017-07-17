@@ -17,19 +17,22 @@ The goals / steps of this project are the following:
 
 [image1]: ./gray.png "Grayscale"
 
+[image2]: ./blurred.png "Blurred"
+
 ---
 
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of the following steps :
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+1. First I converted the image to grayscale image. As it is easier to do image processing techniques on a grayscale image. The image is displayed below
 
 ![Grayscale][image1]
+
+2. I then used the Gaussian Blur function to remove noise in the grayscale image. This smoothens the variation in intensity throughout the image. The blurred image is displayed below
+![Blurred][image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
