@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: 'C:/Users/lenovo/Documents/SDCND/CarND-LaneLines-P1-master/CarND-LaneLines-P1-master/images/gray.png'
+[image1]: ./gray.png
 
 ---
 
